@@ -18,9 +18,9 @@ let state;
 // bigint
 // string => ""
 // boolean => true/false
-// null => standalone value
-// undefined => 
-// symbol => unique
+// null => standalone value (type of s object hai)
+// undefined => value not assigned (type of s undefined hai)
+// symbol => to find unique components
 
 
 // object
