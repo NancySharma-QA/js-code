@@ -3,15 +3,16 @@ let score = "hitesh"
 //console.log(typeof score);
 //console.log(typeof(score));
 
-let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+let valueInNumber = Number(score)  //On using Number it is guarrented that score is in number form
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
 
-
+//Outputs of above number conversions
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
-
+// String => NaN
+// is score has value = null then its number conversion from above is 0 and in case of score = undefined it converts into NaN
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
